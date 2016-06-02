@@ -1,7 +1,7 @@
 #ifndef MAINWINDOWH
 #define MAINWINDOWH
 
-#include <QMainWindow>
+#include "stable.h"
 
 namespace Ui {
 class MainWindow;

@@ -15,6 +15,11 @@ TEMPLATE = app
 SOURCES += main.cpp\
         MainWindow.cpp
 
-HEADERS  += MainWindowh.h
+HEADERS  += \
+    stable.h \
+    MainWindow.h
 
 FORMS    += MainWindow.ui
+
+# Use Precompiled headers (PCH)
+PRECOMPILED_HEADER  = stable.h
