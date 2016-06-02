@@ -13,13 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        MainWindow.cpp
+        MainWindow.cpp \
+    ConnectDialog.cpp
 
 HEADERS  += \
     stable.h \
-    MainWindow.h
+    MainWindow.h \
+    ConnectDialog.h
 
-FORMS    += MainWindow.ui
+FORMS    += MainWindow.ui \
+    ConnectDialog.ui
 
 # Use Precompiled headers (PCH)
 PRECOMPILED_HEADER  = stable.h
