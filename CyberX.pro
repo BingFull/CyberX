@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+CONFIG   += c++11
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -14,12 +15,14 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         MainWindow.cpp \
-    ConnectDialog.cpp
+    ConnectDialog.cpp \
+    FtpService.cpp
 
 HEADERS  += \
     stable.h \
     MainWindow.h \
-    ConnectDialog.h
+    ConnectDialog.h \
+    FtpService.h
 
 FORMS    += MainWindow.ui \
     ConnectDialog.ui

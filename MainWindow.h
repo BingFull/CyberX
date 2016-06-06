@@ -2,6 +2,7 @@
 #define MAINWINDOWH
 
 #include "stable.h"
+#include "FtpService.h"
 
 namespace Ui {
 class MainWindow;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    FtpService ftpService;
 };
 
 #endif // MAINWINDOWH
